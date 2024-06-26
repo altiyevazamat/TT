@@ -8,7 +8,6 @@ const personalMovieDB = {
   privat: false,
 };
 
-<<<<<<< HEAD
 for (let i = 0; i < 2; i++) {
   const a = prompt("Один из последних просмотренных фильмов", ""),
     b = prompt("На сколько оцените его?", "");
@@ -33,14 +32,3 @@ if (personalMovieDB.count < 10) {
 }
 
 console.log(personalMovieDB.movies);
-=======
-const a = prompt("Один из последних просмотренных фильмов", ""),
-  b = +prompt("На сколько оцените его?", ""),
-  c = prompt("Один из последних просмотренных фильмов", ""),
-  d = +prompt("На сколько оцените его?", "");
-
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
-
-console.log(personalMovieDB);
->>>>>>> 09609d206af1ba14785d02f05688ea5833a33320
